@@ -3,28 +3,34 @@
     <title>Apa Benar?</title>
     <style>
         .container {
-            display: flex;position: relative;
+            display: flex;
+            position: relative;
         } 
         body {
             background-color: rgb(140, 140, 167);
         }
-        <title>Elemen Love</title>
-    <style>
+
+        /* CSS untuk mengatur tampilan "Love" */
         .love {
             font-size: 100px; /* Ukuran teks "Love" */
             color: red; /* Warna teks "Love" */
-            text-align: center; /* Membuat teks "Love" berada di tengah secara horizontal */
-            margin-top: 200px; /* Jarak dari atas */
+            position: absolute; /* Mengatur posisi absolut untuk elemen "Love" */
+            top: 50%; /* Mengatur elemen "Love" berada di tengah vertikal (50% dari atas) */
+            left: 50%; /* Mengatur elemen "Love" berada di tengah horizontal (50% dari kiri) */
+            transform: translate(-50%, -50%); /* Menggeser elemen "Love" setengah dari lebar dan tingginya agar berada di tengah */
         }
 
+        /* CSS untuk gambar hati */
         .heart {
             width: 150px; /* Ukuran gambar hati */
             fill: red; /* Warna isi hati */
             stroke: rgb(25, 23, 23); /* Warna garis tepi hati */
-            stroke-width: 3; /* Ketebalan garis tepi hati */
+            stroke-width: 2; /* Ketebalan garis tepi hati */
             display: block; /* Membuat gambar hati tampil sebagai blok */
-            margin: 010 auto; /* Membuat gambar hati berada di tengah secara horizontal */
+            margin: 10 auto; /* Membuat gambar hati berada di tengah secara horizontal */
         }
+
+        /* CSS untuk teks paragraf dan judul */
         p {
             color: rgb(231, 109, 15);
             text-align: center;
@@ -33,6 +39,8 @@
             color: rgb(179, 12, 12);
             text-align: center;
         }
+
+        /* CSS untuk gambar */
         img {
             margin-left: 150px;
             width: 400px;
@@ -59,5 +67,10 @@
         <p><button>sangat tertarik</button></p>
         <p>cara melihat anomali secara langsung <a href="https://www.instagram.com/gimbungwarkop/?hl=id">kunjungi</a></p>
     </main>
+    <style>body {
+        background-image: url("morales.avif"); /* Ganti "path/to/your/image.jpg" dengan lokasi gambar Anda */
+        background-size: cover; /* Mengatur agar gambar background menutupi seluruh latar belakang */
+        background-repeat: no-repeat; /* Mengatur agar gambar background tidak diulang */
+        background-position: center; /* Mengatur posisi gambar background berada di tengah-tengah */</style>
 </body>
 </html>
